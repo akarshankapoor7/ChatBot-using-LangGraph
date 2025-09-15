@@ -1,0 +1,11 @@
+langchain
+langgraph
+langchain-core
+typing
+pydantic
+langchain-groq
+groq
+python-dotenv
+streamlit
+sqlite-vec==0.1.6
+langgraph-checkpoint-sqlite
