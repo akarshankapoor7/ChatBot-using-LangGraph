@@ -23,26 +23,26 @@ An interactive **Generative AI chatbot** built using **LangGraph** and **Streaml
 - [SQLite3](https://www.sqlite.org/index.html) – for lightweight local storage.
 
 ---
- """📂 Project Structure
+📂 Project Structure
 
 .
-├── .env                              # Store your API keys here
-├── requirements.txt                  # Python dependencies
+├── .env                               # Store your API keys here
+├── requirements.txt                   # Python dependencies
 ├── 01_ChatBot_with_memory_checkpoint.ipynb   # Jupyter Notebook for experimentation
 │
-├── ChatBot_backend.py                # Backend (memory only)
-├── Streamlit_ChatBot_frontend.py     # Streamlit frontend (memory only)
+├── ChatBot_backend.py                 # Backend (memory only)
+├── Streamlit_ChatBot_frontend.py      # Streamlit frontend (memory only)
 ├── Streamlit_Chatbot_frontend_UI_1.png   # Screenshot for memory-only chatbot
 │
-├── ChatBot_database_backend.py       # Backend (with SQLite database)
-├── Streamlit_frontend_database.py    # Streamlit frontend (with SQLite DB)
+├── ChatBot_database_backend.py        # Backend (with SQLite database)
+├── Streamlit_frontend_database.py     # Streamlit frontend (with SQLite DB)
 ├── Streamlit_frontend_database_UI_2.png   # Screenshot for DB chatbot
 │
-├── chatbot_memory.db                 # SQLite database (created at runtime)
+├── chatbot_memory.db                  # SQLite database (created at runtime)
 │
 ├── LICENSE
 └── README.md
-"""
+
 
 
 2️⃣ Create virtual environment
