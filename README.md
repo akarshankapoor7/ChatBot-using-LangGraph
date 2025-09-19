@@ -29,17 +29,25 @@ An interactive **Generative AI chatbot** built using **LangGraph** and **Streaml
 ├── .env                               # Store your API keys here
 ├── requirements.txt                   # Python dependencies
 ├── 01_ChatBot_with_memory_checkpoint.ipynb   # Jupyter Notebook for experimentation
+
+
 │
 ├── ChatBot_backend.py                 # Backend (memory only)
 ├── Streamlit_ChatBot_frontend.py      # Streamlit frontend (memory only)
 ├── Streamlit_Chatbot_frontend_UI_1.png   # Screenshot for memory-only chatbot
 │
+
+
 ├── ChatBot_database_backend.py        # Backend (with SQLite database)
 ├── Streamlit_frontend_database.py     # Streamlit frontend (with SQLite DB)
 ├── Streamlit_frontend_database_UI_2.png   # Screenshot for DB chatbot
 │
+
+
 ├── chatbot_memory.db                  # SQLite database (created at runtime)
 │
+
+
 ├── LICENSE
 └── README.md
 
@@ -47,7 +55,9 @@ An interactive **Generative AI chatbot** built using **LangGraph** and **Streaml
 
 2️⃣ Create virtual environment
 python -m venv lgraph
+
 source lgraph/bin/activate   # Mac/Linux
+
 lgraph\Scripts\activate      # Windows
 
 3️⃣ Install dependencies
